@@ -31,7 +31,7 @@
 #  hiredis_DEFINITIONS - Compiler switches required for using hiredis
 
 include(FindPkgConfig)
-pkg_check_modules(hiredis REQUIRED hiredis)
+pkg_check_modules(hiredis hiredis)
 
 if(hiredis_FOUND)
   message(STATUS "Find hiredis by pkg")

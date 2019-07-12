@@ -32,7 +32,7 @@
 
 
 include(FindPkgConfig)
-pkg_check_modules(gflags REQUIRED libgflags)
+pkg_check_modules(gflags libgflags)
 
 if(gflags_FOUND)
   message(STATUS "Find gflags by pkg")

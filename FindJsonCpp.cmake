@@ -30,7 +30,7 @@
 #  JsonCpp_DEFINITIONS - Compiler switches required for using JsonCpp
 
 include(FindPkgConfig)
-pkg_check_modules(JsonCpp REQUIRED jsoncpp)
+pkg_check_modules(JsonCpp jsoncpp)
 
 if(jsoncpp_FOUND)
   message(STATUS "Find JsonCpp by pkg")

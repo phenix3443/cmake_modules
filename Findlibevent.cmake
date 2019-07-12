@@ -31,7 +31,7 @@
 #  libevent_DEFINITIONS - Compiler switches required for using libevent
 
 include(FindPkgConfig)
-pkg_check_modules(libevent REQUIRED libevent)
+pkg_check_modules(libevent libevent)
 
 if(libevent_FOUND)
   message(STATUS "Find libevent by pkg")

@@ -31,7 +31,7 @@
 # MaxMindDB_VERSION - Compiler switches required for using MaxMindDB
 
 include(FindPkgConfig)
-pkg_check_modules(MaxMindDB REQUIRED maxminddb)
+pkg_check_modules(MaxMindDB maxminddb)
 
 if(MaxMindDB_FOUND)
   message(STATUS "Find MaxMindDB by pkg")

@@ -33,7 +33,7 @@
 #  log4cplus_DEFINITIONS - Compiler switches required for using log4cplus
 
 include(FindPkgConfig)
-pkg_check_modules(log4cplus REQUIRED log4cplus)
+pkg_check_modules(log4cplus log4cplus)
 
 if(log4cplus_FOUND)
   message(STATUS "Find log4cplus by pkg")

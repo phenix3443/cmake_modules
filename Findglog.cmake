@@ -32,7 +32,7 @@
 
 
 include(FindPkgConfig)
-pkg_check_modules(glog REQUIRED libglog)
+pkg_check_modules(glog libglog)
 
 if(glog_FOUND)
   message(STATUS "Find glog by pkg")
