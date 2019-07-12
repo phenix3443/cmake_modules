@@ -31,7 +31,7 @@
 #  Thrift_DEFINITIONS - Compiler switches required for using Thrift
 
 include(FindPkgConfig)
-pkg_check_modules(JsonCpp trift)
+pkg_check_modules(Thrift thrift)
 
 if(Thrift_FOUND)
   message(STATUS "Find Thrift by pkg")
